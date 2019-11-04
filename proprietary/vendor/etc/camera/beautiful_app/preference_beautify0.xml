@@ -1,0 +1,200 @@
+<level_1>
+    fn-blush1:5
+    fn-denoise1:5
+    fn-eyeBrightening1:10
+    fn-eyeCircles1:30
+    fn-eyeEnhancement1:20
+    fn-eyeEnlargement1:15
+    fn-lipsPerfect1:5
+    fn-noseSlimming1:10
+    fn-slimming1:15
+    fn-smartColor1:100
+    fn-smartLight1:10
+    fn-smoothing1:20
+    fn-spotLightstren1:60
+    fn-spotRemovel1:0
+    fn-teethWhitening1:15
+    fn-toninglevel1:5
+    fn-toningtype1:0
+</level_1>
+
+<level_2>
+    fn-blush2:5
+    fn-denoise2:5
+    fn-eyeBrightening2:10
+    fn-eyeCircles2:50
+    fn-eyeEnhancement2:30
+    fn-eyeEnlargement2:20
+    fn-lipsPerfect2:10
+    fn-noseSlimming2:10
+    fn-slimming2:20
+    fn-smartColor2:100
+    fn-smartLight2:20
+    fn-smoothing2:30
+    fn-spotLightstren2:70
+    fn-spotRemovel2:0
+    fn-teethWhitening2:15
+    fn-toninglevel2:10
+    fn-toningtype2:0
+</level_2>
+
+<level_3>
+    fn-blush3:5
+    fn-denoise3:5
+    fn-eyeBrightening3:10
+    fn-eyeCircles3:60
+    fn-eyeEnhancement3:40
+    fn-eyeEnlargement3:25
+    fn-lipsPerfect3:20
+    fn-noseSlimming3:10
+    fn-slimming3:25
+    fn-smartColor3:100
+    fn-smartLight3:30
+    fn-smoothing3:40
+    fn-spotLightstren3:80
+    fn-spotRemovel3:0
+    fn-teethWhitening3:15
+    fn-toninglevel3:15
+    fn-toningtype3:0
+</level_3>
+
+<level_4>
+    fn-blush4:10
+    fn-denoise4:5
+    fn-eyeBrightening4:10
+    fn-eyeCircles4:70
+    fn-eyeEnhancement4:50
+    fn-eyeEnlargement4:30
+    fn-lipsPerfect4:30
+    fn-noseSlimming4:10
+    fn-slimming4:30
+    fn-smartColor4:100
+    fn-smartLight4:40
+    fn-smoothing4:50
+    fn-spotLightstren4:90
+    fn-spotRemovel4:0
+    fn-teethWhitening4:15
+    fn-toninglevel4:25
+    fn-toningtype4:0
+</level_4>
+
+<level_5>
+    fn-blush5:10
+    fn-denoise5:5
+    fn-eyeBrightening5:10
+    fn-eyeCircles5:80
+    fn-eyeEnhancement5:60
+    fn-eyeEnlargement5:35
+    fn-lipsPerfect5:40
+    fn-noseSlimming5:10
+    fn-slimming5:35
+    fn-smartColor5:100
+    fn-smartLight5:50
+    fn-smoothing5:60
+    fn-spotLightstren5:100
+    fn-spotRemovel5:0
+    fn-teethWhitening5:15
+    fn-toninglevel5:45
+    fn-toningtype5:0
+</level_5>
+
+<level_6>
+    fn-blush6:15
+    fn-denoise6:5
+    fn-eyeBrightening6:10
+    fn-eyeCircles6:90
+    fn-eyeEnhancement6:80
+    fn-eyeEnlargement6:40
+    fn-lipsPerfect6:50
+    fn-noseSlimming6:10
+    fn-slimming6:40
+    fn-smartColor6:100
+    fn-smartLight6:60
+    fn-smoothing6:70
+    fn-spotLightstren6:110
+    fn-spotRemovel6:10
+    fn-teethWhitening6:15
+    fn-toninglevel6:55
+    fn-toningtype6:0
+</level_6>
+
+<level_7>
+    fn-blush7:15
+    fn-denoise7:5
+    fn-eyeBrightening7:10
+    fn-eyeCircles7:100
+    fn-eyeEnhancement7:100
+    fn-eyeEnlargement7:45
+    fn-lipsPerfect7:55
+    fn-noseSlimming7:10
+    fn-slimming7:45
+    fn-smartColor7:100
+    fn-smartLight7:70
+    fn-smoothing7:80
+    fn-spotLightstren7:120
+    fn-spotRemovel7:20
+    fn-teethWhitening7:15
+    fn-toninglevel7:65
+    fn-toningtype7:0
+</level_7>
+
+<level_8>
+    fn-blush8:20
+    fn-denoise8:5
+    fn-eyeBrightening8:10
+    fn-eyeCircles8:110
+    fn-eyeEnhancement8:150
+    fn-eyeEnlargement8:50
+    fn-lipsPerfect8:60
+    fn-noseSlimming8:10
+    fn-slimming8:50
+    fn-smartColor8:100
+    fn-smartLight8:80
+    fn-smoothing8:90
+    fn-spotLightstren8:130
+    fn-spotRemovel8:30
+    fn-teethWhitening8:15
+    fn-toninglevel8:75
+    fn-toningtype8:0
+</level_8>
+
+<level_9>
+    fn-blush9:20
+    fn-denoise9:5
+    fn-eyeBrightening9:10
+    fn-eyeCircles9:130
+    fn-eyeEnhancement9:160
+    fn-eyeEnlargement9:55
+    fn-lipsPerfect9:65
+    fn-noseSlimming9:20
+    fn-slimming9:55
+    fn-smartColor9:100
+    fn-smartLight9:90
+    fn-smoothing9:100
+    fn-spotLightstren9:140
+    fn-spotRemovel9:40
+    fn-teethWhitening9:15
+    fn-toninglevel9:85
+    fn-toningtype9:0
+</level_9>
+
+<level_10>
+    fn-blush10:20
+    fn-denoise10:25
+    fn-eyeBrightening10:10
+    fn-eyeCircles10:150
+    fn-eyeEnhancement10:190
+    fn-eyeEnlargement10:60
+    fn-lipsPerfect10:70
+    fn-noseSlimming10:30
+    fn-slimming10:60
+    fn-smartColor10:100
+    fn-smartLight10:100
+    fn-smoothing10:110
+    fn-spotLightstren10:150
+    fn-spotRemovel10:50
+    fn-teethWhitening10:15
+    fn-toninglevel10:90
+    fn-toningtype10:0
+</level_10>
+

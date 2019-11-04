@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<device name="com_config" dev_ver="0x61">
+
+    <SysParam>
+        <SLFpApi>
+            <save_nav_img>0</save_nav_img>
+            <save_tune_img>0</save_tune_img>
+        </SLFpApi>
+
+        <SLVirTualID>
+            <VirTualID t="U">00000001</VirTualID>
+            <!--VirTualID(bits represent:0-31[used]); Chip Package:0-3[0,1]; Platform:4-7[]; OTP:24-27[24];  Gpio:28-31[31]; others Reserved-->
+            <!--MTK-6161e>00000000</6161e-MTK-->
+            <!--MTK-6163e>00000000</6163e-MTK-->
+            <!--MTK-6163s>00000000</6163s-MTK-->
+            <!--MTK-6263e>00000002</6263e-MTK-->
+            <!--MTK-6263s>00000003</6263s-MTK-->
+            <!--MTK-6172e>00000000</6172e-MTK-->
+            <!--MTK-6172s>00000001</6172s-MTK-->
+            <!--MTK-6272e>00000002</6272e-MTK-->
+            <!--MTK-6272s>00000003</6272s-MTK-->
+            <!--MTK-6182e>00000000</6182e-MTK-->
+            <!--MTK-6185e>00000000</6185e-MTK-->
+            <!--MTK-6165b>00000000</6165b-MTK-->
+            <!--MTK-6165e>00000001</6165e-MTK-->
+            <!--MTK-6153s>00000001</6153s-MTK-->
+            <!--MTK-6152s>00000002</6152s-MTK-->
+            <!--MTK-6275e>00000000</6275e-MTK-->
+            <!--6165e only for huaqin pro-->
+            <!--MTK-6182e96>00000000</6182e96-MTK-->
+        </SLVirTualID>
+
+    </SysParam>
+
+</device>

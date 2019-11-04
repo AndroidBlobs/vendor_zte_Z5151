@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<device name="GSL6162" dev_ver="6152a000_0516b010_00000001">
+ <!--Version 1.11 2017.3.6-->
+    <SysParam>
+        <SLMaskChipID>
+            <SLMaskID t="T">FFFFFF00_FFFFFF10_FFFFFFFF</SLMaskID>
+        </SLMaskChipID>
+        <OTPID>
+            <OTPAddrBaseVal t="T">FF100010_00000700_00000010</OTPAddrBaseVal>
+            <!-- OTPRegAddr_OTPBaseVal_OTPShiftBase -->
+        </OTPID>
+		<SLFpApi>
+			<sysparm_on>1</sysparm_on>
+			<frame_h>80</frame_h>
+			<frame_w>64</frame_w>
+		</SLFpApi>
+		<SLAlg>
+			<sysparm_on>1</sysparm_on>
+			<finger_detect_threshold>4</finger_detect_threshold>
+			<!--finger_detect_threshold>default 4 max 5 min 1</finger_detect_threshold-->
+			<finger_detect_frame>3</finger_detect_frame>
+			<!--finger_detect_frame>not used</finger_detect_frame-->
+			<finger_release_frame>2</finger_release_frame>
+			<!--finger_release_frame>not used</finger_release_frame-->
+
+
+			<!--iAlgparam -->
+			<C_AlgParmA n="137" st="ArrI">
+				132        	128        	750        	10002      	0          	128        	1          	230
+				220        	250        	180        	220        	200        	254        	150        	250
+				78         	178        	78         	178        	100        	180        	10         	10
+				15         	20         	1          	10         	3          	20         	97         	80
+				99         	90         	75         	15         	0          	254        	8          	4
+				6          	15         	30         	30519      	30263      	26167      	25911      	21815
+				21559      	17463      	17462      	17206      	13110      	13109      	12854      	12853
+				8758       	8757       	8742       	8741       	8740       	8739       	4646       	4645
+				4644       	4643       	4628       	4627       	4626       	4612       	4625       	4610
+				4609       	0          	180        	40         	24         	8          	120        	1
+				0          	0          	0          	1          	20         	0          	0          	3
+				2          	17171974   	0          	0          	0          	78         	178        	78
+				178        	0        	0        	0        	0        	0        	0        	0
+				0        	0        	0        	0        	0        	0        	7        	16
+				14        	13        	11        	9        	9        	7        	6        	6
+				6        	6        	6        	7        	9        	13        	18        	16
+				0        	8        	8        	30        	10        	0        	5        	20
+				15
+			</C_AlgParmA>
+
+			<!--iNavparam-->
+			<C_AlgParmN n="78" st="ArrI">
+				0          	3          	8          	3          	8          	9          	180        	3
+				2          	8          	64         	27         	1          	2          	0          	1
+				0          	1          	128        	128        	750        	10002      	180        	220
+				160        	240        	140        	220        	160        	200        	10         	15
+				64         	80        	4          	1          	8          	40         	32         	40
+				0          	0          	0          	0          	30         	15         	2          	2
+				200        	8          	4          	100        	40         	20         	7          	40
+				90         	0          	0          	1          	3          	100        	30         	100
+				1          	3          	10         	80         	20         	4          	8          	80
+				50         	0          	7          	17         	10         	0
+			</C_AlgParmN>
+
+			<!--iBaseparam-->
+			<C_AlgParmB n="27" st="ArrI">
+				16         	25600      	5          	250        	5          	8          	64         	80        	
+				21         	20         	1          	0          	60          60          20          0
+				240         256         768         256         1024        320         1536        384
+				2048        10          100
+			</C_AlgParmB>
+
+			<!--iCoverparam-->
+			<C_AlgParmC n="5" st="ArrI">
+				64         	80        	2          	2          	0          	
+			</C_AlgParmC>
+			
+			<BaseFlag>1</BaseFlag>
+			<DetectYinyangFlag>0</DetectYinyangFlag>
+			<imgBlockNumThreshold>0</imgBlockNumThreshold>
+			<imgnumThresholdSmall>40</imgnumThresholdSmall>
+			<coverageThreshold>80</coverageThreshold>
+			<HWAGCFlag>1</HWAGCFlag>
+			<HWCoverageWake>12</HWCoverageWake>
+			<HWCoverageTune>45</HWCoverageTune>
+			<HWblock_num>8</HWblock_num>
+			<iIs6182_SMALL_INSERT>0</iIs6182_SMALL_INSERT>
+			<ExpSize>8</ExpSize>
+			<FFTThreshold>6</FFTThreshold>
+			<FingerStateCount>1</FingerStateCount>
+			<IsPreSmooth>0</IsPreSmooth>
+			<IsNaviNew>0</IsNaviNew>
+			<amend>0</amend>
+			<grey_stretch>0</grey_stretch>
+			<imagecut_control t="U" >0x00000000</imagecut_control>
+
+			<nav_read_w>32</nav_read_w>
+			<nav_read_h>40</nav_read_h>
+			<hg_nav_read_w>32</hg_nav_read_w>
+			<hg_nav_read_h>32</hg_nav_read_h>
+			<ds_nav_read_w>32</ds_nav_read_w>
+			<ds_nav_read_h>32</ds_nav_read_h>
+			<partial_read_w>32</partial_read_w>
+			<partial_read_h>32</partial_read_h>
+			<hwagc_w>32</hwagc_w>
+			<hwagc_h>20</hwagc_h>
+			<iCharge_Filter>0</iCharge_Filter>
+			<iForce_Charge_Filter>0</iForce_Charge_Filter>
+			<iEnhance_Charge_Filter>0</iEnhance_Charge_Filter>
+			<iFineTune_Charge_Filter>0</iFineTune_Charge_Filter>
+			<iCharge_Noise_Threshold_Start>5000</iCharge_Noise_Threshold_Start>
+			<iCharge_Noise_Threshold_Goal>500</iCharge_Noise_Threshold_Goal>
+			<mmi_dac_min>0x70</mmi_dac_min>
+			<mmi_dac_max>0xff</mmi_dac_max>
+			<mmi_grey_range_left>90</mmi_grey_range_left>
+			<mmi_grey_range_right>110</mmi_grey_range_right>
+			<mmi_max_tune_time>7</mmi_max_tune_time>
+			<finger_detect_type>1</finger_detect_type>
+			<mmi_amend>0</mmi_amend>
+			<con_frame_get_num>1</con_frame_get_num>
+		</SLAlg>
+
+		<HuaweiAlg>
+			<capture_max>60</capture_max>
+			<enroll_min_coverage>3</enroll_min_coverage>
+			<update_max>30</update_max>
+			<security>250</security>
+			<enroll_coverage_threshold>50</enroll_coverage_threshold>
+			<enroll_quality_threshold>30</enroll_quality_threshold>
+			<update_exc>1</update_exc>
+		</HuaweiAlg>
+
+		<HardWare>
+			<sysparm_on>1</sysparm_on>
+			<int_mode>1</int_mode>
+            <readbf_delay_large>5</readbf_delay_large>
+            <readbf_delay_small>2</readbf_delay_small>
+			<readbf_delay_nav>7</readbf_delay_nav>
+			<readbf_delay_hwcov>5</readbf_delay_hwcov>
+			<readbf_delay_hwagc>5</readbf_delay_hwagc>
+			<normal_mode_delay>3</normal_mode_delay>
+			<skip_normal_after_int>1</skip_normal_after_int>
+			<con_frame_mode_delay>3</con_frame_mode_delay>
+			<spi>
+			   	<spiReset>1</spiReset>
+			   	<spiMode>0</spiMode>
+				<spiPages>1</spiPages>
+				<spiOffset>1</spiOffset>
+				<spiSpeed>4800000</spiSpeed>
+				<!--MTK-spiSpeed>2M</MTK-spiSpeed-->
+                <!--Qcom-spiSpeed>2M</Qcom-spiSpeed-->
+				<spiResetGpio>1</spiResetGpio>
+				<!--spiDMAWrite_enable>0</spiDMAWrite_enable-->
+				<spiSingleWrite_TZ_Enbale>1</spiSingleWrite_TZ_Enbale>
+				<spiSingleWrite_Enbale>0</spiSingleWrite_Enbale>
+				<spiiotrllength>3</spiiotrllength>
+			</spi>
+			<frame_average>0</frame_average>
+			<!--frame_average = 1 start frame average solution -->
+			<grayrevert>0</grayrevert>
+        </HardWare>
+		<SLUEvt>
+			<sysparm_on>0</sysparm_on>
+			<UEvtTimeOut>-1</UEvtTimeOut>
+		</SLUEvt>
+    </SysParam>
+    <registers>
+		<normal_mode t="C" st="ArrUU">
+			0x00000098:0x00044710
+			0x000000a0:0x00000001
+			0x00000098:0x20644700
+			0x000000a0:0x00000000
+			0xff0a0010:0x00000001
+			0xff0a00C0:0x13114304
+			0xff0a00C4:0x00000000
+			0xff0a0090:0x00004026
+			0xff0a0094:0x01000001
+			0xff0a00ec:0x00000000
+			0x000000e4:0x00000005
+			0x000000e8:0x00000043
+			0x00000094:0x01020000
+			0xff00004c:0x00009103
+			0xff010008:0x00000039
+			0xff080000:0x14226202
+			0xff080030:0x003f1233
+			0xff0800d4:0xffff0143
+			0xff080820:0x001d0000
+			0x01000400:0x00000280
+			0x01000404:0x00000020
+			0x01000408:0x00200020
+			0x0100040c:0x02400020
+			0x01000410:0x02600020
+		</normal_mode>
+		<data_interrupt_mode t="C" st="ArrUU">
+			0xff080124:0x00000008
+			0xff08012c:0x00000080
+			0x000000bf:0x00000000
+			0xff010004:0x00000930
+			0xff0a0010:0x00000701
+			0xff000020:0x00060301
+			0xff00002c:0x00000303
+			0xff08000c:0x00038585
+			0x00000090:0x0000800b
+			0xff0800d4:0xffff010a
+			0xff080030:0x011f3111
+		</data_interrupt_mode>
+		<leave_interrupt_mode t="C" st="ArrUU">
+			0xff080124:0x00000008
+			0xff08012c:0x00000080
+			0x000000bf:0x00000000
+			0xff010004:0x00000798
+			0xff080034:0x12000380
+			0xff0a0010:0x00000701
+			0xff000020:0x00060301
+			0xff00002c:0x00000303
+			0xff08000c:0x00038585
+			0x00000090:0x0000800b
+			0xff0800d4:0xffff010a
+			0xff080030:0x011f3111
+		</leave_interrupt_mode>
+        <vkey_interrupt_mode t="C" st="ArrUU">
+			0xff080124:0x00000042
+			0xff080128:0x20000100
+			0xff08012c:0x00040000
+			0xff080164:0x00000080
+			0x000000bf:0x00000000
+			0xff010004:0x00000530
+			0xff000020:0x00060301
+			0xff00002c:0x00000303
+			0xff08082c:0x05000000
+			0xff080040:0x00000300
+			0xff080160:0x48010701
+			0xff080034:0x10002000
+			0xff080038:0x07000040
+			0xff0a0010:0x00000701
+			0x00000090:0x0000800b
+			0xff08000c:0x00038585
+			0xff0800d4:0xffff010a
+			0xff080030:0x011f3111
+        </vkey_interrupt_mode>
+		<nav_read_mode t="C" st="ArrUU">
+			0xff0a0010:0x00000001
+			0xff000020:0x00010201
+			0xff00002c:0x00000203
+			0xff08000c:0x000300a5
+			0xff080150:0x00500007
+			0xff080154:0x00010000
+			0xff080054:0x00000140
+			0xff080814:0x00000000
+        </nav_read_mode>
+        <hg_nav_read_mode t="C" st="ArrUU">
+			0xff0a0010:0x00000001
+			0xff080150:0x00480007
+			0xff080154:0x00090000
+			0xff080054:0x00000100
+			0xff080814:0x00000000
+        </hg_nav_read_mode>
+		<ds_nav_read_mode t="C" st="ArrUU">
+			0xff0a0010:0x00000001
+			0xff080150:0x00500007
+			0xff080154:0x00010000
+			0xff080054:0x00000140
+			0xff080814:0x00000000
+		    0xff080040:0x00010400
+		    0xff080034:0x10002800
+		    0xff080038:0x0f000050
+		    0xff080840:0x070a0701
+		    0xff080834:0x000000ff
+		    0xff080838:0x000000ff
+		    0xff08082c:0x05000001
+		    0xff000024:0x63330000
+		    0xff08000c:0x000385a5
+        </ds_nav_read_mode>
+		<hg_coverage_mode t="C" st="ArrUU">
+		    0xff080040:0x00010400
+		    0xff080034:0x10002800
+		    0xff080038:0x0f000050
+		    0xff080840:0x070a0701
+		    0xff080834:0x000000ff
+		    0xff080838:0x000000ff
+		    0xff08082c:0x05000001
+		    0xff000024:0x63330000
+		    0xff08000c:0x00038585
+        </hg_coverage_mode>
+        <hwagc_read_mode t="C" st="ArrUU">
+	        0xff0a0010:0x00000001
+		    0xff08082c:0x05000000
+		    0xff080840:0x04140204
+		    0xff080834:0x00000003
+		    0xff080838:0x0000000f
+		    0xff080000:0x14226202
+	</hwagc_read_mode>
+	<partial_read_mode t="C" st="ArrUU">
+		    0xff0a0010:0x00000001
+		    0xff080000:0x14226202
+		    0xff080054:0x00000100
+		    0xff080150:0x00480007
+ 	   	    0xff080154:0x00090000
+		    0xff080814:0x00000000
+        </partial_read_mode>
+        <full_read_mode t="C" st="ArrUU">
+		    0xff0a0010:0x00000001
+		    0xff080054:0x00000500
+		    0xff080150:0x00500007
+ 	   	    0xff080154:0x00010000
+		    0xff080814:0xc1000100
+        </full_read_mode>
+        <finger_detect_mode t="C" st="ArrUU">
+			0xff000020:0x00030301
+			0xff00002C:0x00000307
+			0xff08000c:0x00038686
+        </finger_detect_mode>
+        <stop_mode t="C" st="ArrUU">
+        </stop_mode>
+        <start_frm_mode t="C" st="ArrUU">
+			0xff080024:0x00000000
+        </start_frm_mode>
+		<start_hwcov_mode t="C" st="ArrUU">
+			0xff080024:0x01000000
+        </start_hwcov_mode>
+		<start_hwagc_mode t="C" st="ArrUU">
+			0xff080024:0x00000001
+        </start_hwagc_mode>
+		<start_ds_mode t="C" st="ArrUU">
+			0xff080024:0x03000000
+        </start_ds_mode>
+		<test_interrupt_mode1 t="C" st="ArrUU">
+			0xff080124:0x00000008
+			0xff08012c:0x00000080
+			0x000000bf:0x00000000
+			0xff010004:0x00000930
+			0xff0a0010:0x00000701
+			0xff08000c:0x00038585
+			0x00000090:0x0000800b
+			0xff080034:0x10000000
+			0xff0800d4:0xffff010a
+			0xff080030:0x011f3111
+		</test_interrupt_mode1>
+		<test_interrupt_mode2 t="C" st="ArrUU">
+			0xff080124:0x00000008
+			0xff08012c:0x00000080
+			0x000000bf:0x00000000
+			0xff010004:0x00000930
+			0xff0a0010:0x00000701
+			0xff08000c:0x00038585
+			0x00000090:0x0000800b
+			0xff080034:0x10ffffff
+			0xff0800d4:0xffff010a
+			0xff080030:0x011f3111
+		</test_interrupt_mode2>
+		<test_snr_mode t="C" st="ArrUU">
+			0xff0a00C0:0x23114304
+			0xff080188:0x0000c002
+		</test_snr_mode>
+		<test_deadpix_mode1 t="C" st="ArrUU">
+			0xff000020:0x00020201
+			0xff00002c:0x00000101
+			0xff00006c:0x01000311
+			0xff08000c:0x00030080
+		</test_deadpix_mode1>
+		<test_deadpix_mode2 t="C" st="ArrUU">
+			0xff000020:0x00020201
+			0xff00002c:0x00000100
+			0xff00006c:0x01000311
+			0xff08000c:0x00030088
+		</test_deadpix_mode2>
+		<test_deadpix_mode3 t="C" st="ArrUU">
+			0xff000020:0x00020201
+			0xff00002c:0x00000100
+			0xff00006c:0x00000311
+			0xff08000c:0x00030075
+		</test_deadpix_mode3>
+        <fine_tune_adc_regs t="C" st="ArrUU">
+		    0xff08000c:0
+        </fine_tune_adc_regs>
+    </registers>
+    <op_registers>
+	<!--for OTP Information-->
+	<otp_reg_otp0>0xff100008</otp_reg_otp0>
+	<otp_reg_otp1>0xff10000c</otp_reg_otp1>
+	<otp_reg_otp2>0xff100004</otp_reg_otp2>
+	<otp_reg_otp3>0xff100000</otp_reg_otp3>
+	<otp_reg_otp4>0xff100010</otp_reg_otp4>
+	<otp_a0_val>0x00000000</otp_a0_val>
+	<!--for ESD irq-->
+		<esd_irq_check>0</esd_irq_check>
+		<esd_irq_reg>0x0000009a</esd_irq_reg>
+		<esd_irq_val>0x00000064</esd_irq_val>
+		<data_int_reg>0xff0800d4</data_int_reg>
+		<data_int_val>0xffff010a</data_int_val>
+		<data_int_beacon>0xff080030</data_int_beacon>
+        <fine_tune_reg_dac>0xff08000c</fine_tune_reg_dac>
+        <fine_tune_reg_ag20>0xff000020</fine_tune_reg_ag20>
+        <fine_tune_reg_ag2c>0xff00002c</fine_tune_reg_ag2c>
+		<navi_tune_val_dac>0x000300a5</navi_tune_val_dac>
+		<navi_tune_val_ag20>0x00010201</navi_tune_val_ag20>
+		<navi_tune_val_ag2c>0x00000203</navi_tune_val_ag2c>
+		<navi_ds_tune_val_dac>0x000386a5</navi_ds_tune_val_dac>
+		<!--default agc-->
+        <fine_tune_val_dac>0x0003009c</fine_tune_val_dac>
+        <fine_tune_val_ag20>0x00010201</fine_tune_val_ag20>
+        <fine_tune_val_ag2c>0x00000204</fine_tune_val_ag2c>
+        <hw_fine_tune_val_dac>0x0003009c</hw_fine_tune_val_dac>
+        <hw_fine_tune_val_ag20>0x00020201</hw_fine_tune_val_ag20>
+        <hw_fine_tune_val_ag2c>0x00000203</hw_fine_tune_val_ag2c>
+        <high_gain_val_dac>0x000300ff</high_gain_val_dac>
+        <high_gain_val_ag20>0x00070201</high_gain_val_ag20>
+        <high_gain_val_ag2c>0x20000307</high_gain_val_ag2c>
+        <low_gain_val_dac>0x00030040</low_gain_val_dac>
+        <low_gain_val_ag20>0x00010201</low_gain_val_ag20>
+        <low_gain_val_ag2c>0x20000001</low_gain_val_ag2c>
+        <snr_gain_val_dac>0x000300b0</snr_gain_val_dac>
+        <snr_gain_val_ag20>0x00030201</snr_gain_val_ag20>
+        <snr_gain_val_ag2c>0x20000306</snr_gain_val_ag2c>
+        <snr_white_val_dac>0x00030080</snr_white_val_dac>
+        <snr_white_val_ag20>0x00010201</snr_white_val_ag20>
+        <snr_white_val_ag2c>0x20000206</snr_white_val_ag2c>
+        <sleep_threshold_reg>0xff080034</sleep_threshold_reg>
+        <!--only in interrupt mode-->
+        <fine_tune_adc_regs_on>1</fine_tune_adc_regs_on>
+		<chiptest_mode_regs_r>0xC0</chiptest_mode_regs_r>
+		<chiptest_mode_regs_w>0X80</chiptest_mode_regs_w>
+		<check_int_mode_regs>0xff0800d4</check_int_mode_regs>
+		<start_frm_reg>0xff080024</start_frm_reg>
+		<start_frm_value>0x20380000</start_frm_value>
+		<idle_consumption_on>0</idle_consumption_on>
+		<idle_consumption_reg>0xff00005c</idle_consumption_reg>
+		<idle_consumption_value1>0x00000810</idle_consumption_value1>
+		<idle_consumption_value2>0x00000811</idle_consumption_value2>
+    </op_registers>
+</device>

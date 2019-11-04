@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<device name="GSL6163B00" dev_ver="0x61">
+ <!--Version 1.16 2017.4.6-->
+    <SysParam> 
+        <SLAlg>
+            <finger_check>1</finger_check>
+            <ALGversion t="T">01060800</ALGversion>
+            <!--SnrParameter for HuaWei -->
+            <cut_signal_pixels>40</cut_signal_pixels>
+            <cut_white_pixels>40</cut_white_pixels>
+            <image_counts>30</image_counts>
+            <calibration>0</calibration>
+            <cut_black_percent>5</cut_black_percent>
+            <cut_white_percent>10</cut_white_percent>
+            <snr_threshold>30</snr_threshold>
+            <!--BubbleParameter for HuaWei -->
+            <fGrav>20</fGrav>
+            <thr_total_blob_pxls>20</thr_total_blob_pxls>
+            <thr_max_length_blob>4</thr_max_length_blob>
+            <thr_max_pxl_per_blob>10</thr_max_pxl_per_blob>
+            <thr_ink_dot_pxls>30</thr_ink_dot_pxls>
+            <!--iMaxEnrollNum -->
+            <iMaxEnrollNum>12</iMaxEnrollNum>
+            <iMaxTemplateNum>54</iMaxTemplateNum>
+            <iEnhance>0</iEnhance>
+            <itemplate_type>0</itemplate_type>
+            <ifullsearch>1</ifullsearch>
+<!-- add for new pb start-->
+            <iframe_quality_threshold>30</iframe_quality_threshold>
+            <iframe_coverage_threshold>75</iframe_coverage_threshold>
+            <iframe_debounce_quality_threshold>50</iframe_debounce_quality_threshold>
+            <ienroll_quality_threshold>30</ienroll_quality_threshold>
+            <ienroll_coverage_threshold>75</ienroll_coverage_threshold>
+            <iverify_far_low_threshold>5</iverify_far_low_threshold>
+            <iverify_far_high_threshold>100000</iverify_far_high_threshold>
+            <iverify_quality_threshold>30</iverify_quality_threshold>
+            <iverify_coverage_threshold>75</iverify_coverage_threshold>
+            <iverify_uptem_threshold>10000000</iverify_uptem_threshold>
+            <isamearea_verify_threshold>100000</isamearea_verify_threshold>
+            <ialgi>5</ialgi>
+            <ialgi_fast>5</ialgi_fast>
+<!-- 0:sensor_size_132x114 1:sensor_size_122x107 2: sensor_size_78x194 -->
+            <ifilter_len>0</ifilter_len>
+            <ienroll_verify_fast>0</ienroll_verify_fast>
+            <far_neo_shift>3</far_neo_shift>
+            <skin_threshold>3000</skin_threshold>
+            <artificial_threshold>2525</artificial_threshold>
+            <isamearea_dist>32</isamearea_dist>
+            <imax_template_size>270000</imax_template_size>
+            <idyupdatefast_set>2</idyupdatefast_set>
+            <isegment_set>0</isegment_set>
+            <update_MaskID t="U">0x01010101</update_MaskID>
+            <!-- 0-7bit:update_verify_flag  8-15bit:update_success_threshold 16-23bit:verify_success_threshold 24-31bit:verify_failed_threshold -->
+            <verify_threshold_decrease>100000</verify_threshold_decrease>
+            <verify_threshold_increase>100000</verify_threshold_increase>
+<!-- add for new pb end -->
+            <smart_enroll_flag>0</smart_enroll_flag>
+            <enroll_repeat_thres_total>85</enroll_repeat_thres_total>
+            <enroll_repeat_thres_image>70</enroll_repeat_thres_image>
+            <enroll_least_hint_count>1</enroll_least_hint_count>
+            <isame_area_percent>80</isame_area_percent>
+            <ishowNum>2</ishowNum>
+            <iverifyStart>10</iverifyStart>
+            <iarea_same_threshold>21000</iarea_same_threshold>
+            <iAutoLearning>3</iAutoLearning>
+            <enroll_same_area>1</enroll_same_area>
+            <image_quality_threshold>30</image_quality_threshold>
+            <verify_threshold>500000</verify_threshold>
+            <enroll_far_threshold_high>100000000</enroll_far_threshold_high>
+            <enroll_far_threshold_low>5</enroll_far_threshold_low>
+            <!--verify_threshold FAR 1/x  min:100 000 max:100 000 000-->
+            <real_direction  t="T">DULR</real_direction>
+            <!--0:no direction;1:north direction;2:north east direction;3:east direction -->
+            <!--4:east south direction;5:south direction;6:south west direction;7:west direction -->
+            <!--8:west north direction-->
+            <enroll_direction_setup t="T">00000000000000000000</enroll_direction_setup>
+
+            <!--for Deadpix test -->
+            <fingerdetectThreshold>180</fingerdetectThreshold>
+            <deadpointhardThershold>140</deadpointhardThershold>
+            <deadpointnormalThreashold>5</deadpointnormalThreashold>
+            <scut>0</scut>
+            <detev_ww>40</detev_ww>
+            <detev_hh>28</detev_hh>
+            <deteline_h>255</deteline_h>
+            <deteline_w>255</deteline_w>
+            <deadpointmax>10</deadpointmax>
+            <badlinemax>1</badlinemax>
+            <!---for interrupt binaryzation test -->
+            <interrupt_flag>0</interrupt_flag>
+            <unpress_min>0</unpress_min>
+            <unpress_max>0</unpress_max>
+            <press_min>0</press_min>
+            <press_max>0</press_max>
+            <press_threshold_min>0</press_threshold_min>
+            <press_threshold_max>0</press_threshold_max>
+            <water_finger_detect>0</water_finger_detect>
+            <shake_coe>10</shake_coe>
+            <noise_coe>140</noise_coe>
+            <gray_prec>25</gray_prec>
+            <water_detect_threshold>800</water_detect_threshold>
+        </SLAlg>
+
+        <Test>
+            <sysparm_on>0</sysparm_on>
+            <stress>0</stress>
+            <FARFRR>
+                <iMaxEnrollNum>24</iMaxEnrollNum>
+                <ienroll_quality_threshold>0</ienroll_quality_threshold>
+                <ienroll_coverage_threshold>0</ienroll_coverage_threshold>
+                <iverify_far_low_threshold>5</iverify_far_low_threshold>
+                <iverify_far_high_threshold>100000</iverify_far_high_threshold>
+                <iverify_quality_threshold>0</iverify_quality_threshold>
+                <iverify_coverage_threshold>0</iverify_coverage_threshold>
+                <iverify_uptem_threshold>1000000</iverify_uptem_threshold>
+            </FARFRR>
+        </Test>
+
+    </SysParam>
+
+</device>
